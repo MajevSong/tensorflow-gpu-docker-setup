@@ -59,4 +59,4 @@ Bu repo, TensorFlow 2.15.0 GPU destekli bir Docker ortamı sunar. Gerekli kütü
 
 ## 🛠️ Hazırlayan
 
-📎 Otomatik olarak ChatGPT tarafından oluşturulmuştur.
+📎 Mücahit Söylemez
