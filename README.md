@@ -4,6 +4,30 @@ A ready-to-use environment for training deep learning models with TensorFlow 2.1
 
 ---
 
+## ✅ System Requirements (Windows)
+
+> Before using this setup, make sure the following are properly configured:
+
+- 🐳 **Docker Desktop** must be installed  
+  👉 https://www.docker.com/products/docker-desktop
+
+- ⚙️ **BIOS** must have Virtualization Technology **enabled**
+
+- 🔧 Enable these **Windows Features**:
+  - [x] Hyper-V
+  - [x] Windows Subsystem for Linux (WSL2)
+  - [x] Virtual Machine Platform
+
+- 🐧 Set WSL2 as default version:
+  ```bash
+  wsl --set-default-version 2
+  ```
+
+- 🚀 **NVIDIA Container Toolkit** must be installed for GPU support  
+  👉 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+
+---
+
 ## 🚀 Features
 
 - ✅ TensorFlow 2.15.0 with GPU (Compute Capability 12.0 supported)
@@ -59,4 +83,4 @@ Bu repo, TensorFlow 2.15.0 GPU destekli bir Docker ortamı sunar. Gerekli kütü
 
 ## 🛠️ Hazırlayan
 
-📎 Mücahit Söylemez
+📎 Mücahit Söylemez tarafından oluşturulmuştur.
